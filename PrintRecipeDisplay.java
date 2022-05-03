@@ -26,13 +26,13 @@ public class PrintRecipeDisplay extends JFrame{
             // Producers
             JLabel prod_title = new JLabel();
             prod_title.setText("<html><h2>Producers:</h2><html>");
-            prod_title.setBounds(0, 90, 400, 30);
+            prod_title.setBounds(0, 80, 400, 30);
             JLabel[] producers = new JLabel[r.getProducers().size()];
             // In
             JLabel in_title = new JLabel();
             in_title.setText("<html><h2>In:</h2><html>");
             JLabel[] in = new JLabel[r.getIn().size()];
-            y=90;
+            y=80;
             // Out
             JLabel out_title = new JLabel();
             out_title.setText("<html><h2>Out:</h2><html>");
