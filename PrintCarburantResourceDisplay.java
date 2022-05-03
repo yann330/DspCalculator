@@ -39,7 +39,7 @@ public class PrintCarburantResourceDisplay extends JFrame{
         contentPane.add(value);
         // MinedBy
         JLabel minedby_t = new JLabel();
-        minedby_t.setText("<html><h2>Minedby: "+r.getId()+"</h2><html>");
+        minedby_t.setText("<html><h2>Minedby: </h2><html>");
         minedby_t.setBounds(0, y=100, 400, 30);
         // Adding the labels
         // Titles
