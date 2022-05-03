@@ -45,7 +45,7 @@ public class ChoixFiltrageMenu extends JFrame implements ActionListener {
 
     public ChoixFiltrageMenu() {
         //On ouvre la fenêtre avec les possibilités données dans le projet
-        super("Choix filtrage menu");
+        super("DspCalculator");
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         //Résolution de la fenêtre
         this.setSize(1366, 768);
@@ -60,7 +60,7 @@ public class ChoixFiltrageMenu extends JFrame implements ActionListener {
         p4 = new JButton(("Afficher, pour une usine donnée, toutes les recettes qui lui sont associées."));
         p5 = new JButton(("Afficher, pour un extracteur donné, toutes les ressources qu’il peut extraire"));
         p6 = new JButton(("Afficher, pour une centrale à carburant donnée, tous les carburants qu’elle peut prendre en entrée"));
-        p7 = new JButton(("Afficher, pour une recette spécifique, l’ensemble des composants de type ressource qui sont néces- saires pour l’élaboration de la recette."));
+        p7 = new JButton(("Afficher, pour une recette spécifique, l’ensemble des composants de type ressource qui sont nécessaires pour l’élaboration de la recette."));
         p8 = new JButton(("Quitter"));
         //Pour l'exécution de chaque choix de filtrage
         p1.addActionListener(this);
@@ -102,6 +102,9 @@ public class ChoixFiltrageMenu extends JFrame implements ActionListener {
         }
         if(source==p6){
             new BurnerCentralDisplay();
+        }
+        if(source==p7){
+            new RecipeResource();
         }
         if(source==p8){
             System.exit(0);
