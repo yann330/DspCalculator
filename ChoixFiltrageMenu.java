@@ -85,11 +85,13 @@ public class ChoixFiltrageMenu extends JFrame implements ActionListener {
 
     public void actionPerformed(ActionEvent e){
         Object source= e.getSource();
+        if(source==p1){
+            new NotBuildingDisplay();
+        }
         if(source==p2){
             new AlphabeticBuildings();
         }
         if(source==p3){
-            //Affichage ordre alphabétigue
             new AlphabeticRecipes();
         }
         if(source==p4){

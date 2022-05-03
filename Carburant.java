@@ -33,6 +33,10 @@ public class Carburant extends Component implements IsCarburant, CategoryExcepti
         }
     }
 
+    public int getValue(){
+        return this.value;
+    }
+
     @Override
     public String toString() {
         return "Carburant{" +

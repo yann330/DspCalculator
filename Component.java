@@ -56,7 +56,7 @@ public class Component
 
     //Afficher la liste des composants non bâtiment par ordre alphabétique et permettre, pour un composant spécifique, d’obtenir toutes ses informations.
 
-    public static void alphabeticComponets()
+    public static LinkedList<Component> alphabeticComponets()
     {
         LinkedList <Component> notBuildings = new LinkedList <Component>();
         for (Component c : allComponents)
@@ -68,11 +68,7 @@ public class Component
         }
 
         Collections.sort(notBuildings, new ComponentComparator());
-
-        for (Component nb : notBuildings)
-        {
-            System.out.println(nb.getName());
-        }
+        return notBuildings;
     }
 }
 

@@ -101,8 +101,9 @@ public class Recipe
     //décomposition en ressources. Si des composants peuvent être produits par plusieurs recettes, on
     //choisira arbitrairement une des recettes.
 
-    public static void getRecipeResources(String id)
+    public static LinkedList<Resource> getRecipeResources(String id)
     {
+        LinkedList<Resource> res = new LinkedList<Resource>();
         // Find recipe
         Recipe recipe = Recipe.findRecipe(id);
 
@@ -116,11 +117,11 @@ public class Recipe
                 }
                 else if (c instanceof Resource)
                 {
-                    System.out.println((Resource) c);
+                    res.add((Resource) c);
                 }
             }
         }
-
+        return res;
     }
 
     //Afficher la liste des recettes par ordre alphabétique et permettre, pour une recette spécifique, d’obtenir toutes ses informations.
