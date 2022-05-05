@@ -1,29 +1,27 @@
 
 
+import ClassesPackage.*;
+import ClassesPackage.Building;
+import ClassesPackage.BurnerCentral;
+import InterfacePackage.ChoixFiltrageMenu;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JButton;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import javax.swing.UIManager;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.awt.Desktop;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
 
 public class Interface extends JFrame implements ActionListener{
@@ -110,7 +108,7 @@ public class Interface extends JFrame implements ActionListener{
                     // items
                     String category = element.getElementsByTagName("category").item(0).getTextContent();
 
-                    // category components -> Component
+                    // category components -> ClassesPackage.Component
                     switch (category)
                     {
                         case "components" -> {
@@ -119,7 +117,7 @@ public class Interface extends JFrame implements ActionListener{
                             // there is a tag <fuel> inside the tag <item>
                             if (fuel.getLength() == 1)
                             {
-                                // fuel -> Carburant
+                                // fuel -> ClassesPackage.Carburant
 
                                 // tag <category> and <value> inside the tag <fuel>
                                 String category_fuel = ((Element) fuel.item(0)).getElementsByTagName("category").item(0).getTextContent();
@@ -133,16 +131,16 @@ public class Interface extends JFrame implements ActionListener{
                             }
                         }
 
-                        // category resource -> Resource
+                        // category resource -> ClassesPackage.Resource
                         case "resource" -> {
                             NodeList mined = element.getElementsByTagName("minedby");
 
-                            // minedby -> add Extractor
+                            // minedby -> add ClassesPackage.Extractor
                             if (mined.getLength() > 0)
                             {
                                 NodeList fuel = element.getElementsByTagName("fuel");
 
-                                // fuel - Carburant Resource
+                                // fuel - ClassesPackage.Carburant ClassesPackage.Resource
                                 if (fuel.getLength() == 1)
                                 {
                                     // tag <category> and <value> inside the tag <fuel>
@@ -154,7 +152,7 @@ public class Interface extends JFrame implements ActionListener{
                                     // add all the exctactors
                                     for (int m = 0; m < mined.getLength(); m++)
                                     {
-                                        carburantResource.addExtractor(mined.item(m).getTextContent());
+                                        carburantResource.addMinedBy(mined.item(m).getTextContent());
                                     }
                                 }
                                 else
@@ -164,7 +162,7 @@ public class Interface extends JFrame implements ActionListener{
                                     // add all the exctactors
                                     for (int m = 0; m < mined.getLength(); m++)
                                     {
-                                        resource.addExtractor(mined.item(m).getTextContent());
+                                        resource.addMinedBy(mined.item(m).getTextContent());
                                     }
                                 }
                             }
@@ -174,7 +172,7 @@ public class Interface extends JFrame implements ActionListener{
                             }
                         }
 
-                        // category buildings -> Building
+                        // category buildings -> ClassesPackage.Building
                         case "buildings" -> {
                             NodeList factory = element.getElementsByTagName("factory");
                             NodeList mining = element.getElementsByTagName("mining");
@@ -215,7 +213,7 @@ public class Interface extends JFrame implements ActionListener{
 
                                 if (type.equals("electric"))
                                 {
-                                    // factory (electric) & mining -> Extractor
+                                    // factory (electric) & mining -> ClassesPackage.Extractor
                                     NodeList mined = element.getElementsByTagName("mining");
                                     if (mined.getLength() > 0)
                                     {
@@ -225,21 +223,21 @@ public class Interface extends JFrame implements ActionListener{
                                         Extractor extractor = new Extractor(id, name, Integer.parseInt(usage),  Double.parseDouble(drain), Double.parseDouble(m_speed));
                                     }
 
-                                    // factory (electric) -> Factory
+                                    // factory (electric) -> ClassesPackage.Factory
                                     else
                                     {
                                         Factory factory_el = new Factory(id, name, "electric", Double.parseDouble(speed), Integer.parseInt(usage),  Double.parseDouble(drain));
                                     }
                                 }
 
-                                // factory (burner) -> BurnerCentral
+                                // factory (burner) -> ClassesPackage.BurnerCentral
                                 else if (type.equals("burner"))
                                 {
                                     String category_fuel = ((Element) factory.item(0)).getElementsByTagName("category").item(0).getTextContent();
                                     BurnerCentral burnerCentral = new BurnerCentral(id, name, category_fuel, Double.parseDouble(speed));
                                 }
 
-                                // factory (electric-production) -> EnergyProductionCentral
+                                // factory (electric-production) -> ClassesPackage.EnergyProductionCentral
                                 else if (type.equals("electric-production"))
                                 {
                                     String value = ((Element) factory.item(0)).getElementsByTagName("value").item(0).getTextContent();
