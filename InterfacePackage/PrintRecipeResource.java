@@ -20,7 +20,8 @@ public class PrintRecipeResource extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setSize(400, 400);
         this.setLocationRelativeTo(null);
-        this.res = Recipe.getRecipeResources(r.getId());
+        LinkedList<Resource> resources = new LinkedList<Resource>();
+        this.res = Recipe.getRecipeResources(r.getId(), resources);
         this.btt = new LinkedList<JButton>();
         // Declaration of the labels
         JPanel contentPane = (JPanel) this.getContentPane();
@@ -48,7 +49,7 @@ public class PrintRecipeResource extends JFrame implements ActionListener {
         contentPane.add(required_resources);
 
         // Display the required resources
-        contentPane.setLayout(new GridLayout(res.size()+6,1));
+
         if(res.size()==0){
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No resource found.");
@@ -57,6 +58,7 @@ public class PrintRecipeResource extends JFrame implements ActionListener {
             contentPane.add(new Label(""));
         }
         else {
+            contentPane.setLayout(new GridLayout(res.size()+5,1));
             for (int i = 0; i < res.size(); i++) {
                 btt.add(new JButton(res.get(i).getName()));
                 contentPane.add(btt.get(i));

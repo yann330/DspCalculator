@@ -41,16 +41,15 @@ public class PrintBuildingDisplay extends JFrame implements ActionListener {
         recipes_title.setBounds(0, y = y+20, 400, 30);
         contentPane.add(recipes_title);
         this.res = b.getAssociatedRecipes();
-        contentPane.setLayout(new GridLayout(res.size()+5,1));
         if(res.size()==0){
-            this.setSize(400, 300);
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No recipe found.");
-            no_recipe_found.setBounds(0, y, 400, 30);
+            no_recipe_found.setBounds(0, y+20, 400, 30);
             contentPane.add(no_recipe_found);
             contentPane.add(new Label(""));
         }
         else {
+            contentPane.setLayout(new GridLayout(res.size()+3,1));
             for (int i = 0; i < res.size(); i++) {
                 btt.add(new JButton(res.get(i).getName()));
                 contentPane.add(btt.get(i));

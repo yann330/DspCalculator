@@ -1,5 +1,7 @@
 package InterfacePackage;
 
+import ClassesPackage.Extractor;
+import ClassesPackage.Extracts;
 import ClassesPackage.Resource;
 
 import javax.swing.*;
@@ -8,9 +10,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
 
-public class PrintResourceDisplay extends JFrame{
-
-    private LinkedList<String> res;
+public class PrintResourceDisplay extends JFrame implements ActionListener{
+    private LinkedList<JButton> b;
+    private LinkedList<Extracts> res;
 
     public PrintResourceDisplay(Resource r){
         // Display
@@ -19,7 +21,8 @@ public class PrintResourceDisplay extends JFrame{
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.setSize(400, 400);
         this.setLocationRelativeTo(null);
-        this.res = r.getMinedby();
+        this.res = r.getAssociatedExtractors();
+        b = new LinkedList<JButton>();
 
         // Declaration of the labels
         JPanel contentPane = (JPanel) this.getContentPane();
@@ -51,24 +54,32 @@ public class PrintResourceDisplay extends JFrame{
             contentPane.add(no_minedby);
         }
         else {
-            for (int i = 0; i < res.size(); i++) {
-                y=y+20;
-                minedby[i]=new JLabel(res.get(i));
-                minedby[i].setText("<html><h3>" + res.get(i) + "</h3><html>");
-                minedby[i].setBounds(0, y, 400, 30);
-                contentPane.add(minedby[i]);
+            contentPane.setLayout(new GridLayout(res.size()+3,1));
+            for(int i=0; i<res.size(); i++){
+                b.add(new JButton(res.get(i).getName()));
+                contentPane.add(b.get(i));
             }
         }
-        contentPane.add(new JLabel(""));
+        for(int i=0; i< res.size(); i++){
+            b.get(i).addActionListener(this);
+        }
         this.setVisible(true);
         JScrollPane pane = new JScrollPane(contentPane);
         this.setContentPane(pane);
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
+
             }
         });
     }
-
+    public void actionPerformed(ActionEvent e){
+        Object source = e.getSource();
+        for(int i=0; i< res.size(); i++){
+            if(source.equals(this.b.get(i))){
+                new PrintExtractorDisplay(res.get(i));
+            }
+        }
+    }
 
 }
 

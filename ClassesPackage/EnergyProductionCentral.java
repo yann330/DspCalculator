@@ -33,6 +33,7 @@ public class EnergyProductionCentral extends Central implements Extracts
         extractedResources.add(resource);
     }
 
+
     public LinkedList<Resource> getExtractedResources()
     {
         return (LinkedList<Resource>) extractedResources.clone();

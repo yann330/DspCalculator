@@ -13,6 +13,9 @@ public class Recipe
     private double time;
     private LinkedList<Building> producers;
     private static LinkedList<Recipe> allRecipies = new LinkedList<Recipe>();
+    private static LinkedList<Resource> tmpResources = new LinkedList<Resource>();
+    private LinkedList<Resource> resources;
+
 
     public Recipe(String id, String name, double time)
     {
@@ -22,7 +25,9 @@ public class Recipe
         in = new LinkedList<Component>();
         out = new LinkedList<Component>();
         producers = new LinkedList<Building>();
+        resources = new LinkedList<Resource>();
         allRecipies.add(this);
+
     }
 
     @Override
@@ -103,9 +108,8 @@ public class Recipe
     //décomposition en ressources. Si des composants peuvent être produits par plusieurs recettes, on
     //choisira arbitrairement une des recettes.
 
-    public static LinkedList<Resource> getRecipeResources(String id)
+    public static LinkedList<Resource> getRecipeResources(String id, LinkedList<Resource> res)
     {
-        LinkedList<Resource> res = new LinkedList<Resource>();
         // Find recipe
         Recipe recipe = Recipe.findRecipe(id);
 
@@ -115,11 +119,12 @@ public class Recipe
             {
                 if (Recipe.findRecipe(c.getId()) != null)
                 {
-                    getRecipeResources(c.getId());
+                    getRecipeResources(c.getId(), res);
                 }
                 else if (c instanceof Resource)
                 {
-                    res.add((Resource) c);
+                    if(!res.contains(c))
+                        res.add((Resource) c);
                 }
             }
         }
@@ -132,10 +137,70 @@ public class Recipe
     {
         Collections.sort(allRecipies, new Recipe.RecipeComparator());
 
-        /*for (ClassesPackage.Recipe r : allRecipies)
-        {
-            System.out.println(r.name);
-        }*/
         return allRecipies;
+    }
+
+    private static void fillRecipeResources(String id)
+    {
+        // Recursive function to fill in the resources
+        fillRecipeResourcesAdditional(id);
+
+        // Clear the temporary linked list used to store resources in recursion
+        tmpResources.clear();
+    }
+
+    // Helper function to fill in the resources
+    private static void fillRecipeResourcesAdditional(String id)
+    {
+        // Find recipe
+        Recipe recipe = Recipe.findRecipe(id);
+
+        if (recipe.in != null)
+        {
+            // The function fills in the recipes used in the process of recursion incorrectly, so for each call the "resources" list is rewriten
+            if (recipe.resources.size() != 0)
+            {
+                recipe.resources.clear();
+            }
+
+            for(Component c : recipe.in)
+            {
+                if (Recipe.findRecipe(c.getId()) != null)
+                {
+                    fillRecipeResourcesAdditional(c.getId());
+                }
+                else if (c instanceof Resource)
+                {
+                    if (!tmpResources.contains(c))
+                    {
+                        tmpResources.add((Resource) c);
+                    }
+                }
+            }
+
+            // Add all the resources seen to the "resources" list
+            for(Resource r : tmpResources)
+            {
+                recipe.resources.add(r);
+            }
+        }
+    }
+
+    public static double recipeTotalConsommation(String id)
+    {
+        double total = 0.0;
+        Recipe recipe = Recipe.findRecipe(id);
+        Recipe.fillRecipeResources(id);
+
+        for(Resource r : recipe.resources)
+        {
+            for (String s : r.getMinedby())
+            {
+                if(Building.findBuilding(s) instanceof Factory)
+                    total += ((Factory) Building.findBuilding(s)).usage;
+            }
+        }
+
+        return total;
     }
 }

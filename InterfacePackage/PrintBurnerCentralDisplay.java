@@ -15,7 +15,7 @@ public class PrintBurnerCentralDisplay extends JFrame {
         super(b.getName());
         int y = 0;
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        this.setSize(500, 500);
+        this.setSize(400, 400);
         this.setLocationRelativeTo(null);
         this.res = b.getCarburants();
 
@@ -50,7 +50,6 @@ public class PrintBurnerCentralDisplay extends JFrame {
         contentPane.add(carburants);
 
         JLabel[] carburant = new JLabel[res.size()];
-        contentPane.setLayout(new GridLayout(res.size()+9,1));
         if(res.size()==0){
             this.setSize(400, 400);
             JLabel no_recipe_found = new JLabel();

@@ -15,6 +15,7 @@ public class Extractor extends Factory implements Extracts
         extractedResources = new LinkedList<Resource>();
     }
 
+
     @Override
     public String toString() {
         return "ClassesPackage.Extractor{" +

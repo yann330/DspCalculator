@@ -6,6 +6,7 @@ public interface Extracts
 {
     public void addResource(Resource resource);
     public LinkedList<Resource> getExtractedResources();
+    public String getName();
 
     // Afficher, pour un extracteur donné, toutes les ressources qu’il peut extraire (vous devez afficher les
     //informations complètes de chaque ressource).

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d91847e6-242f-46e5-ae83-0b5620bbc7e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DspCalculator_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Extracts.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Extracts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DspCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/AlphabeticBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/AlphabeticBuildings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/AlphabeticRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/AlphabeticRecipes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/BurnerCentralDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/BurnerCentralDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/ChoixFiltrageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/ChoixFiltrageMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/ExtractorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/ExtractorDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/FactoryDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/FactoryDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/NotBuildingDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/NotBuildingDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintBuildingDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintBuildingDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintRecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintRecipeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintResourceDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintResourceDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/RecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/RecipeResource.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28ks5t1csqHw9AAYWcajQ7ZKTFo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d91847e6-242f-46e5-ae83-0b5620bbc7e9" name="Changes" comment="" />
+      <created>1651771740042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651771740042</updated>
+      <workItem from="1651771745611" duration="11059000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

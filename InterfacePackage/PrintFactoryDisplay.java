@@ -18,7 +18,7 @@ public class PrintFactoryDisplay extends JFrame implements ActionListener {
         super(b.getName());
         int y = 0;
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        this.setSize(500, 500);
+        this.setSize(400, 400);
         this.setLocationRelativeTo(null);
         this.res = Recipe.alphabeticRecipies();
         this.btt = new LinkedList<JButton>();
@@ -64,9 +64,8 @@ public class PrintFactoryDisplay extends JFrame implements ActionListener {
         // Separator
         this.res = b.getAssociatedRecipes();
         JLabel[] recipes = new JLabel[res.size()];
-        contentPane.setLayout(new GridLayout(res.size()+9,1));
+
         if(res.size()==0){
-            this.setSize(400, 300);
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No recipe found.");
             no_recipe_found.setBounds(0, y = 50, 400, 10);
@@ -74,6 +73,7 @@ public class PrintFactoryDisplay extends JFrame implements ActionListener {
             contentPane.add(new Label(""));
         }
         else {
+            contentPane.setLayout(new GridLayout(res.size()+7,1));
             for (int i = 0; i < res.size(); i++) {
                 btt.add(new JButton(res.get(i).getName()));
                 contentPane.add(btt.get(i));

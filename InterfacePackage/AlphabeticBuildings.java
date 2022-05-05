@@ -22,7 +22,7 @@ public class AlphabeticBuildings extends JFrame implements ActionListener
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
         //Resolution
-        this.setSize(1920, 1080);
+        this.setSize(500, 1080);
         this.setLocationRelativeTo(null);
         JPanel contentPane = (JPanel) this.getContentPane();
 

@@ -2,6 +2,7 @@ package InterfacePackage;
 
 import ClassesPackage.Extractor;
 import ClassesPackage.Building;
+import ClassesPackage.Extracts;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,24 +12,24 @@ import java.util.LinkedList;
 
 public class ExtractorDisplay extends JFrame implements ActionListener {
     private LinkedList<JButton> b;
-    private LinkedList<Extractor> res;
+    private LinkedList<Extracts> res;
 
     public ExtractorDisplay(){
         super("Les extracteurs");
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         //Resolution
-        this.setSize(1920, 1080);
+        this.setSize(500, 1080);
         this.setLocationRelativeTo(null);
         JPanel contentPane = (JPanel) this.getContentPane();
 
 
         //Get the sorted list containing the names of the wanted components
         LinkedList<Building> tmp= Building.alphabeticBuildings();
-        this.res =  new LinkedList<Extractor>();
+        this.res =  new LinkedList<Extracts>();
         this.b = new LinkedList<JButton>();
         for(int i=0 ; i<tmp.size(); i++){
-            if(tmp.get(i).getClass().getName().equals("ClassesPackage.Extractor")){
-                res.add((Extractor) tmp.get(i));
+            if( tmp.get(i) instanceof Extracts ){
+                res.add((Extracts) tmp.get(i));
             }
         }
         contentPane.setLayout(new GridLayout(res.size(),1));

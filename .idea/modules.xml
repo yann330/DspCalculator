@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DspCalculator.iml" filepath="$PROJECT_DIR$/DspCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DspCalculator_.iml" filepath="$PROJECT_DIR$/DspCalculator_.iml" />
     </modules>
   </component>
 </project>
