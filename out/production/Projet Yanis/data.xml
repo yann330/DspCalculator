@@ -1,0 +1,3241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r>
+<categories>
+	<id>components</id>
+	<name>Components</name>
+</categories>
+<categories>
+	<id>buildings</id>
+	<name>Buildings</name>
+</categories>
+<categories>
+	<id>resource</id>
+	<name>Primary Resource</name>
+</categories>
+<icons>
+	<color>#FFFFFF</color>
+	<id>components</id>
+	<position>0px 0px</position>
+</icons>
+<icons>
+	<color>#FEFEFE</color>
+	<id>buildings</id>
+	<position>-64px 0px</position>
+</icons>
+<icons>
+	<color>#FFFFFF</color>
+	<id>gas-giant</id>
+	<position>-128px 0px</position>
+</icons>
+<icons>
+	<color>#FFFFFF</color>
+	<id>ice-giant</id>
+	<position>-128px 0px</position>
+</icons>
+<icons>
+	<color>#3D4F46</color>
+	<id>traffic-monitor</id>
+	<position>-256px 0px</position>
+</icons>
+<icons>
+	<color>#4F4F51</color>
+	<id>spray-coater</id>
+	<position>-320px 0px</position>
+</icons>
+<icons>
+	<color>#555D9D</color>
+	<id>accumulator-full</id>
+	<position>-384px 0px</position>
+</icons>
+<icons>
+	<color>#676F72</color>
+	<id>accumulator</id>
+	<position>-448px 0px</position>
+</icons>
+<icons>
+	<color>#496475</color>
+	<id>anti-matter</id>
+	<position>-512px 0px</position>
+</icons>
+<icons>
+	<color>#83979D</color>
+	<id>antimatter-energy-fuel</id>
+	<position>-576px 0px</position>
+</icons>
+<icons>
+	<color>#966C53</color>
+	<id>assembler-1</id>
+	<position>-640px 0px</position>
+</icons>
+<icons>
+	<color>#6E98BC</color>
+	<id>bamboo-crystal</id>
+	<position>0px -64px</position>
+</icons>
+<icons>
+	<color>#AEA292</color>
+	<id>belt-1</id>
+	<position>-64px -64px</position>
+</icons>
+<icons>
+	<color>#8AA39E</color>
+	<id>belt-2</id>
+	<position>-128px -64px</position>
+</icons>
+<icons>
+	<color>#8DA2AF</color>
+	<id>belt-3</id>
+	<position>-192px -64px</position>
+</icons>
+<icons>
+	<color>#F38308</color>
+	<id>c-matrix</id>
+	<position>-256px -64px</position>
+</icons>
+<icons>
+	<color>#A94884</color>
+	<id>casimir-crystal-lv2</id>
+	<position>-320px -64px</position>
+</icons>
+<icons>
+	<color>#BA4B8B</color>
+	<id>casimir-crystal</id>
+	<position>-384px -64px</position>
+</icons>
+<icons>
+	<color>#133D97</color>
+	<id>charging-pole</id>
+	<position>-448px -64px</position>
+</icons>
+<icons>
+	<color>#597289</color>
+	<id>chemical-plant</id>
+	<position>-512px -64px</position>
+</icons>
+<icons>
+	<color>#47824D</color>
+	<id>circuit-board</id>
+	<position>-576px -64px</position>
+</icons>
+<icons>
+	<color>#3B3947</color>
+	<id>coal-ore</id>
+	<position>-640px -64px</position>
+</icons>
+<icons>
+	<color>#875753</color>
+	<id>copper-ore</id>
+	<position>-704px -64px</position>
+</icons>
+<icons>
+	<color>#9C6451</color>
+	<id>copper-plate</id>
+	<position>-768px -64px</position>
+</icons>
+<icons>
+	<color>#736422</color>
+	<id>crystal-rubber-lv0</id>
+	<position>0px -128px</position>
+</icons>
+<icons>
+	<color>#9E9A52</color>
+	<id>crystal-rubber</id>
+	<position>-64px -128px</position>
+</icons>
+<icons>
+	<color>#879E9C</color>
+	<id>deuterium-energy-fuel</id>
+	<position>-128px -128px</position>
+</icons>
+<icons>
+	<color>#7C8F9A</color>
+	<id>deuterium-formula</id>
+	<position>-192px -128px</position>
+</icons>
+<icons>
+	<color>#9BBEC6</color>
+	<id>deuterium</id>
+	<position>-256px -128px</position>
+</icons>
+<icons>
+	<color>#425A7C</color>
+	<id>diamond-lv2</id>
+	<position>-320px -128px</position>
+</icons>
+<icons>
+	<color>#828C99</color>
+	<id>diamond-ore</id>
+	<position>-384px -128px</position>
+</icons>
+<icons>
+	<color>#A5B0BD</color>
+	<id>diamond</id>
+	<position>-448px -128px</position>
+</icons>
+<icons>
+	<color>#1E578E</color>
+	<id>dyson-sphere-component</id>
+	<position>-512px -128px</position>
+</icons>
+<icons>
+	<color>#ED355F</color>
+	<id>e-matrix</id>
+	<position>-576px -128px</position>
+</icons>
+<icons>
+	<color>#49464D</color>
+	<id>electric-motor</id>
+	<position>-640px -128px</position>
+</icons>
+<icons>
+	<color>#575E96</color>
+	<id>em-rail-ejector</id>
+	<position>-704px -128px</position>
+</icons>
+<icons>
+	<color>#3A6294</color>
+	<id>energy-exchanger</id>
+	<position>-768px -128px</position>
+</icons>
+<icons>
+	<color>#518177</color>
+	<id>fractal-silica</id>
+	<position>0px -192px</position>
+</icons>
+<icons>
+	<color>#314F68</color>
+	<id>fractionator</id>
+	<position>-64px -192px</position>
+</icons>
+<icons>
+	<color>#85979A</color>
+	<id>frame-material</id>
+	<position>-128px -192px</position>
+</icons>
+<icons>
+	<color>#736664</color>
+	<id>fuel-plant</id>
+	<position>-192px -192px</position>
+</icons>
+<icons>
+	<color>#3B72CA</color>
+	<id>fuel-thruster</id>
+	<position>-256px -192px</position>
+</icons>
+<icons>
+	<color>#1C6BBC</color>
+	<id>fusion-capacitor</id>
+	<position>-320px -192px</position>
+</icons>
+<icons>
+	<color>#7B858C</color>
+	<id>fusion-power-station</id>
+	<position>-384px -192px</position>
+</icons>
+<icons>
+	<color>#875A28</color>
+	<id>fusion-reactor</id>
+	<position>-448px -192px</position>
+</icons>
+<icons>
+	<color>#21CE3B</color>
+	<id>g-matrix</id>
+	<position>-512px -192px</position>
+</icons>
+<icons>
+	<color>#ECEFF1</color>
+	<id>gas-hydrate</id>
+	<position>-576px -192px</position>
+</icons>
+<icons>
+	<color>#5D6064</color>
+	<id>gear-wheel</id>
+	<position>-640px -192px</position>
+</icons>
+<icons>
+	<color>#466869</color>
+	<id>glass</id>
+	<position>-704px -192px</position>
+</icons>
+<icons>
+	<color>#293E58</color>
+	<id>graphene-lv2</id>
+	<position>-768px -192px</position>
+</icons>
+<icons>
+	<color>#69646A</color>
+	<id>graphene</id>
+	<position>0px -256px</position>
+</icons>
+<icons>
+	<color>#464C59</color>
+	<id>graphite</id>
+	<position>-64px -256px</position>
+</icons>
+<icons>
+	<color>#AA8BB9</color>
+	<id>grating-ore</id>
+	<position>-128px -256px</position>
+</icons>
+<icons>
+	<color>#304D48</color>
+	<id>gravity-lens</id>
+	<position>-192px -256px</position>
+</icons>
+<icons>
+	<color>#304D48</color>
+	<id>photon-capacitor-graviton</id>
+	<position>-192px -256px</position>
+</icons>
+<icons>
+	<color>#203E91</color>
+	<id>hadron-collider</id>
+	<position>-256px -256px</position>
+</icons>
+<icons>
+	<color>#8A9FA5</color>
+	<id>hydrogen-energy-fuel</id>
+	<position>-320px -256px</position>
+</icons>
+<icons>
+	<color>#9BC0C9</color>
+	<id>hydrogen</id>
+	<position>-384px -256px</position>
+</icons>
+<icons>
+	<color>#395E87</color>
+	<id>hyper-magnetism-ring</id>
+	<position>-448px -256px</position>
+</icons>
+<icons>
+	<color>#9C3CED</color>
+	<id>i-matrix</id>
+	<position>-512px -256px</position>
+</icons>
+<icons>
+	<color>#A8A69F</color>
+	<id>inserter-1</id>
+	<position>-576px -256px</position>
+</icons>
+<icons>
+	<color>#8EA7AA</color>
+	<id>inserter-2</id>
+	<position>-640px -256px</position>
+</icons>
+<icons>
+	<color>#91A7B7</color>
+	<id>inserter-3</id>
+	<position>-704px -256px</position>
+</icons>
+<icons>
+	<color>#434F69</color>
+	<id>interstellar-logistic-station</id>
+	<position>-768px -256px</position>
+</icons>
+<icons>
+	<color>#4F7BBA</color>
+	<id>ion-thruster</id>
+	<position>0px -320px</position>
+</icons>
+<icons>
+	<color>#3D5A72</color>
+	<id>iron-ore</id>
+	<position>-64px -320px</position>
+</icons>
+<icons>
+	<color>#72787D</color>
+	<id>iron-plate</id>
+	<position>-128px -320px</position>
+</icons>
+<icons>
+	<color>#42669E</color>
+	<id>lab</id>
+	<position>-192px -320px</position>
+</icons>
+<icons>
+	<color>#466A9A</color>
+	<id>logistic-drone</id>
+	<position>-256px -320px</position>
+</icons>
+<icons>
+	<color>#3C4863</color>
+	<id>logistic-station</id>
+	<position>-320px -320px</position>
+</icons>
+<icons>
+	<color>#4A5568</color>
+	<id>logistic-vessel</id>
+	<position>-384px -320px</position>
+</icons>
+<icons>
+	<color>#395650</color>
+	<id>mag-turbine</id>
+	<position>-448px -320px</position>
+</icons>
+<icons>
+	<color>#454545</color>
+	<id>magnet</id>
+	<position>-512px -320px</position>
+</icons>
+<icons>
+	<color>#59504E</color>
+	<id>magnetism-wire</id>
+	<position>-576px -320px</position>
+</icons>
+<icons>
+	<color>#4C8588</color>
+	<id>micro-component</id>
+	<position>-640px -320px</position>
+</icons>
+<icons>
+	<color>#5C6385</color>
+	<id>mining-drill</id>
+	<position>-704px -320px</position>
+</icons>
+<icons>
+	<color>#65635E</color>
+	<id>mono-mag-ore</id>
+	<position>-768px -320px</position>
+</icons>
+<icons>
+	<color>#3D75BA</color>
+	<id>nanotube-lv2</id>
+	<position>0px -384px</position>
+</icons>
+<icons>
+	<color>#BDBEC3</color>
+	<id>nanotube</id>
+	<position>-64px -384px</position>
+</icons>
+<icons>
+	<color>#705E81</color>
+	<id>oil-extractor</id>
+	<position>-128px -384px</position>
+</icons>
+<icons>
+	<color>#4A5A8D</color>
+	<id>oil-refinery</id>
+	<position>-192px -384px</position>
+</icons>
+<icons>
+	<color>#2F323B</color>
+	<id>oil</id>
+	<position>-256px -384px</position>
+</icons>
+<icons>
+	<color>#38487A</color>
+	<id>orbital-collector</id>
+	<position>-320px -384px</position>
+</icons>
+<icons>
+	<color>#41598C</color>
+	<id>orbital-substation</id>
+	<position>-384px -384px</position>
+</icons>
+<icons>
+	<color>#79479B</color>
+	<id>partical-capacitor-lv2</id>
+	<position>-448px -384px</position>
+</icons>
+<icons>
+	<color>#9E56C9</color>
+	<id>partical-capacitor</id>
+	<position>-512px -384px</position>
+</icons>
+<icons>
+	<color>#4D67AE</color>
+	<id>particle-wide-band</id>
+	<position>-576px -384px</position>
+</icons>
+<icons>
+	<color>#833F89</color>
+	<id>photo-shifter-lv2</id>
+	<position>-640px -384px</position>
+</icons>
+<icons>
+	<color>#943F99</color>
+	<id>photo-shifter</id>
+	<position>-704px -384px</position>
+</icons>
+<icons>
+	<color>#2F4850</color>
+	<id>photon-capacitor-full</id>
+	<position>-768px -384px</position>
+</icons>
+<icons>
+	<color>#2C5980</color>
+	<id>photon-formula</id>
+	<position>0px -448px</position>
+</icons>
+<icons>
+	<color>#4F83BA</color>
+	<id>plane-filter</id>
+	<position>-64px -448px</position>
+</icons>
+<icons>
+	<color>#7B85D4</color>
+	<id>plasma-generator</id>
+	<position>-192px -448px</position>
+</icons>
+<icons>
+	<color>#6F62B6</color>
+	<id>plasma-refining</id>
+	<position>-256px -448px</position>
+</icons>
+<icons>
+	<color>#A09C99</color>
+	<id>plastic</id>
+	<position>-320px -448px</position>
+</icons>
+<icons>
+	<color>#87779D</color>
+	<id>prism</id>
+	<position>-384px -448px</position>
+</icons>
+<icons>
+	<color>#C06C52</color>
+	<id>processor</id>
+	<position>-448px -448px</position>
+</icons>
+<icons>
+	<color>#466EA6</color>
+	<id>quantum-processor</id>
+	<position>-512px -448px</position>
+</icons>
+<icons>
+	<color>#355CA3</color>
+	<id>ray-receiver</id>
+	<position>-576px -448px</position>
+</icons>
+<icons>
+	<color>#766452</color>
+	<id>refined-oil</id>
+	<position>-640px -448px</position>
+</icons>
+<icons>
+	<color>#2A66A1</color>
+	<id>rocket</id>
+	<position>-704px -448px</position>
+</icons>
+<icons>
+	<color>#226E6A</color>
+	<id>silicium-high-purity-lv2</id>
+	<position>-768px -448px</position>
+</icons>
+<icons>
+	<color>#539A82</color>
+	<id>silicium-high-purity</id>
+	<position>0px -512px</position>
+</icons>
+<icons>
+	<color>#4B9171</color>
+	<id>silicium-ore</id>
+	<position>-64px -512px</position>
+</icons>
+<icons>
+	<color>#5A867A</color>
+	<id>silicium-single-crystal</id>
+	<position>-128px -512px</position>
+</icons>
+<icons>
+	<color>#9A6F59</color>
+	<id>smelter</id>
+	<position>-192px -512px</position>
+</icons>
+<icons>
+	<color>#5E85B4</color>
+	<id>solar-collector</id>
+	<position>-256px -512px</position>
+</icons>
+<icons>
+	<color>#5E6875</color>
+	<id>solar-panel</id>
+	<position>-320px -512px</position>
+</icons>
+<icons>
+	<color>#4B5641</color>
+	<id>space-warper-lv2</id>
+	<position>-384px -512px</position>
+</icons>
+<icons>
+	<color>#494440</color>
+	<id>space-warper</id>
+	<position>-448px -512px</position>
+</icons>
+<icons>
+	<color>#545E67</color>
+	<id>splitter-4dir</id>
+	<position>-512px -512px</position>
+</icons>
+<icons>
+	<color>#424A6A</color>
+	<id>advanced-mining-drill</id>
+	<position>-576px -512px</position>
+</icons>
+<icons>
+	<color>#7F7D7E</color>
+	<id>steel-plate</id>
+	<position>-640px -512px</position>
+</icons>
+<icons>
+	<color>#74726F</color>
+	<id>stone-brick</id>
+	<position>-704px -512px</position>
+</icons>
+<icons>
+	<color>#5F6369</color>
+	<id>stone-ore</id>
+	<position>-768px -512px</position>
+</icons>
+<icons>
+	<color>#88939A</color>
+	<id>storage-1</id>
+	<position>0px -576px</position>
+</icons>
+<icons>
+	<color>#95A1A9</color>
+	<id>storage-2</id>
+	<position>-64px -576px</position>
+</icons>
+<icons>
+	<color>#6E7C82</color>
+	<id>storage-tank</id>
+	<position>-128px -576px</position>
+</icons>
+<icons>
+	<color>#47943C</color>
+	<id>strange-matter-generator</id>
+	<position>-192px -576px</position>
+</icons>
+<icons>
+	<color>#B4A54D</color>
+	<id>sulphuric-acid</id>
+	<position>-256px -576px</position>
+</icons>
+<icons>
+	<color>#1A66BE</color>
+	<id>t-matrix</id>
+	<position>-320px -576px</position>
+</icons>
+<icons>
+	<color>#969398</color>
+	<id>terrain-tool</id>
+	<position>-384px -576px</position>
+</icons>
+<icons>
+	<color>#B33434</color>
+	<id>tesla-coil</id>
+	<position>-448px -576px</position>
+</icons>
+<icons>
+	<color>#C2CCD9</color>
+	<id>titan-crystal</id>
+	<position>-512px -576px</position>
+</icons>
+<icons>
+	<color>#5F728B</color>
+	<id>titan-glass</id>
+	<position>-576px -576px</position>
+</icons>
+<icons>
+	<color>#888887</color>
+	<id>titanium-alloy</id>
+	<position>-640px -576px</position>
+</icons>
+<icons>
+	<color>#A6B4BC</color>
+	<id>titanium-ore</id>
+	<position>-704px -576px</position>
+</icons>
+<icons>
+	<color>#A7B3BE</color>
+	<id>titanium-plate</id>
+	<position>-768px -576px</position>
+</icons>
+<icons>
+	<color>#929FD3</color>
+	<id>u-matrix</id>
+	<position>0px -640px</position>
+</icons>
+<icons>
+	<color>#3262B5</color>
+	<id>vertical-launching-silo</id>
+	<position>-64px -640px</position>
+</icons>
+<icons>
+	<color>#415E80</color>
+	<id>water-pump</id>
+	<position>-128px -640px</position>
+</icons>
+<icons>
+	<color>#72868A</color>
+	<id>water</id>
+	<position>-192px -640px</position>
+</icons>
+<icons>
+	<color>#8E545C</color>
+	<id>wind-turbine</id>
+	<position>-256px -640px</position>
+</icons>
+<icons>
+	<color>#6354C0</color>
+	<id>x-ray</id>
+	<position>-384px -640px</position>
+</icons>
+<icons>
+	<color>#97A0A4</color>
+	<id>bamboo-vein</id>
+	<position>-448px -640px</position>
+</icons>
+<icons>
+	<color>#42402D</color>
+	<id>coal-vein</id>
+	<position>-512px -640px</position>
+</icons>
+<icons>
+	<color>#976D5E</color>
+	<id>copper-vein</id>
+	<position>-576px -640px</position>
+</icons>
+<icons>
+	<color>#858D6B</color>
+	<id>crysrub-vein</id>
+	<position>-640px -640px</position>
+</icons>
+<icons>
+	<color>#777E86</color>
+	<id>diamond-vein</id>
+	<position>-704px -640px</position>
+</icons>
+<icons>
+	<color>#848D94</color>
+	<id>fireice-vein</id>
+	<position>-768px -640px</position>
+</icons>
+<icons>
+	<color>#3A594B</color>
+	<id>fractal-vein</id>
+	<position>0px -704px</position>
+</icons>
+<icons>
+	<color>#7A6A87</color>
+	<id>grat-vein</id>
+	<position>-64px -704px</position>
+</icons>
+<icons>
+	<color>#4E819C</color>
+	<id>iron-vein</id>
+	<position>-128px -704px</position>
+</icons>
+<icons>
+	<color>#6E5D5F</color>
+	<id>mag-vein</id>
+	<position>-192px -704px</position>
+</icons>
+<icons>
+	<color>#677459</color>
+	<id>oil-vein</id>
+	<position>-256px -704px</position>
+</icons>
+<icons>
+	<color>#789C8C</color>
+	<id>silicium-vein</id>
+	<position>-320px -704px</position>
+</icons>
+<icons>
+	<color>#726D61</color>
+	<id>stone-vein</id>
+	<position>-384px -704px</position>
+</icons>
+<icons>
+	<color>#999AA7</color>
+	<id>titanium-vein</id>
+	<position>-448px -704px</position>
+</icons>
+<icons>
+	<color>#C5862D</color>
+	<id>proliferator-1</id>
+	<position>-512px -704px</position>
+</icons>
+<icons>
+	<color>#15C39B</color>
+	<id>proliferator-2</id>
+	<position>-576px -704px</position>
+</icons>
+<icons>
+	<color>#1488DA</color>
+	<id>proliferator-3</id>
+	<position>-640px -704px</position>
+</icons>
+<icons>
+	<color>#1488DA</color>
+	<id>automatic-piler</id>
+	<position>-704px -704px</position>
+</icons>
+<icons>
+	<color>#1488DA</color>
+	<id>geothermal-power-station</id>
+	<position>-768px -704px</position>
+</icons>
+<icons>
+	<color>#C5862D</color>
+	<id>proliferator-prod-1</id>
+	<position>0px -768px</position>
+</icons>
+<icons>
+	<color>#15C39B</color>
+	<id>proliferator-prod-2</id>
+	<position>-64px -768px</position>
+</icons>
+<icons>
+	<color>#1488DA</color>
+	<id>proliferator-prod-3</id>
+	<position>-128px -768px</position>
+</icons>
+<icons>
+	<color>#C5862D</color>
+	<id>proliferator-speed-1</id>
+	<position>-192px -768px</position>
+</icons>
+<icons>
+	<color>#15C39B</color>
+	<id>proliferator-speed-2</id>
+	<position>-256px -768px</position>
+</icons>
+<icons>
+	<color>#1488DA</color>
+	<id>proliferator-speed-3</id>
+	<position>-320px -768px</position>
+</icons>
+<icons>
+	<color>#E2E2E2</color>
+	<id>module</id>
+	<position>-384px -768px</position>
+</icons>
+<icons>
+	<color>#72868A</color>
+	<id>water-vein</id>
+	<position>-192px -640px</position>
+</icons>
+<icons>
+	<color>#B4A54D</color>
+	<id>sulphuric-acid-vein</id>
+	<position>-256px -576px</position>
+</icons>
+<items>
+	<category>resource</category>
+	<id>iron-ore</id>
+	<name>Iron ore</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>copper-ore</id>
+	<name>Copper ore</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>stone-ore</id>
+	<name>Stone</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>coal-ore</id>
+	<name>Coal</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>2700</value>
+	</fuel>
+</items>
+<items>
+	<category>resource</category>
+	<id>silicium-ore</id>
+	<name>Silicon ore</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>titanium-ore</id>
+	<name>Titanium ore</name>
+	<row>0</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>water</id>
+	<name>Water</name>
+	<row>0</row>
+	<stack>20</stack>
+	<minedby>water-pump</minedby>
+</items>
+<items>
+	<category>resource</category>
+	<id>oil</id>
+	<name>Crude oil</name>
+	<row>0</row>
+	<stack>20</stack>
+	<minedby>oil-extractor</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>4050</value>
+	</fuel>
+</items>
+<items>
+	<category>resource</category>
+	<id>hydrogen</id>
+	<name>Hydrogen</name>
+	<row>0</row>
+	<stack>20</stack>
+	<minedby>oil-extractor</minedby>
+	<minedby>orbital-collector</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>9000</value>
+	</fuel>
+</items>
+<items>
+	<category>resource</category>
+	<id>deuterium</id>
+	<name>Deuterium</name>
+	<row>0</row>
+	<stack>20</stack>
+	<minedby>orbital-collector</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>9000</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>anti-matter</id>
+	<name>Antimatter</name>
+	<row>0</row>
+	<stack>20</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>diamond-ore</id>
+	<name>Kimberlite ore</name>
+	<row>0</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>iron-plate</id>
+	<name>Iron ingot</name>
+	<row>1</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>copper-plate</id>
+	<name>Copper ingot</name>
+	<row>1</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>stone-brick</id>
+	<name>Stone brick</name>
+	<row>1</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>graphite</id>
+	<name>Energetic graphite</name>
+	<row>1</row>
+	<stack>100</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>6750</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>silicium-single-crystal</id>
+	<name>High-purity silicon</name>
+	<row>1</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>titanium-plate</id>
+	<name>Titanium ingot</name>
+	<row>1</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>sulphuric-acid</id>
+	<name>Sulfuric acid</name>
+	<row>1</row>
+	<stack>20</stack>
+	<minedby>water-pump</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>refined-oil</id>
+	<name>Refined oil</name>
+	<row>1</row>
+	<stack>20</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>4500</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>hydrogen-energy-fuel</id>
+	<name>Hydrogen fuel rod</name>
+	<row>1</row>
+	<stack>30</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>54000</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>deuterium-energy-fuel</id>
+	<name>Deuteron fuel rod</name>
+	<row>1</row>
+	<stack>20</stack>
+	<fuel>
+		<category>nuclear</category>
+		<value>600000</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>antimatter-energy-fuel</id>
+	<name>Antimatter fuel rod</name>
+	<row>1</row>
+	<stack>20</stack>
+	<fuel>
+		<category>antimatter</category>
+		<value>7200000</value>
+	</fuel>
+</items>
+<items>
+	<category>resource</category>
+	<id>fractal-silica</id>
+	<name>Fractal silicon</name>
+	<row>1</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>magnet</id>
+	<name>Magnet</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>magnetism-wire</id>
+	<name>Magnetic coil</name>
+	<row>2</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>glass</id>
+	<name>Glass</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>diamond</id>
+	<name>Diamond</name>
+	<row>2</row>
+	<stack>100</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>900</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>silicium-high-purity</id>
+	<name>Crystal silicon</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>titanium-alloy</id>
+	<name>Titanium alloy</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>gas-hydrate</id>
+	<name>Fire ice</name>
+	<row>2</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+	<minedby>orbital-collector</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>4800</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>plastic</id>
+	<name>Plastic</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>crystal-rubber</id>
+	<name>Organic crystal</name>
+	<row>2</row>
+	<stack>100</stack>
+	<minedby>mining-drill</minedby>
+	<fuel>
+		<category>chemical</category>
+		<value>1800</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>graphene</id>
+	<name>Graphene</name>
+	<row>2</row>
+	<stack>100</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>96</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>fuel-thruster</id>
+	<name>Thruster</name>
+	<row>2</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>grating-ore</id>
+	<name>Optical grating crystal</name>
+	<row>2</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>steel-plate</id>
+	<name>Steel</name>
+	<row>3</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>circuit-board</id>
+	<name>Circuit board</name>
+	<row>3</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>prism</id>
+	<name>Prism</name>
+	<row>3</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>electric-motor</id>
+	<name>Electric motor</name>
+	<row>3</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>micro-component</id>
+	<name>Microcrystalline component</name>
+	<row>3</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>proliferator-1</id>
+	<name>Proliferator mk.I</name>
+	<row>3</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>casimir-crystal</id>
+	<name>Casimir crystal</name>
+	<row>3</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>strange-matter-generator</id>
+	<name>Strange matter</name>
+	<row>3</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>titan-crystal</id>
+	<name>Titanium crystal</name>
+	<row>3</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>nanotube</id>
+	<name>Carbon nanotube</name>
+	<row>3</row>
+	<stack>100</stack>
+	<fuel>
+		<category>chemical</category>
+		<value>84</value>
+	</fuel>
+</items>
+<items>
+	<category>components</category>
+	<id>ion-thruster</id>
+	<name>Reinforced thruster</name>
+	<row>3</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>bamboo-crystal</id>
+	<name>Spiniform stalagmite crystal</name>
+	<row>3</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>gear-wheel</id>
+	<name>Gear</name>
+	<row>4</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>plasma-generator</id>
+	<name>Plasma exciter</name>
+	<row>4</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>photo-shifter</id>
+	<name>Photon combiner</name>
+	<row>4</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>mag-turbine</id>
+	<name>Electromagnetic turbine</name>
+	<row>4</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>processor</id>
+	<name>Processor</name>
+	<row>4</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>proliferator-2</id>
+	<name>Proliferator mk.II</name>
+	<row>4</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>fusion-capacitor</id>
+	<name>Annihilation constraint sphere</name>
+	<row>4</row>
+	<stack>20</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>titan-glass</id>
+	<name>Titanium glass</name>
+	<row>4</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>particle-wide-band</id>
+	<name>Particle broadband</name>
+	<row>4</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>logistic-drone</id>
+	<name>Logistics drone</name>
+	<row>4</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>mono-mag-ore</id>
+	<name>Unipolar magnet</name>
+	<row>4</row>
+	<stack>50</stack>
+	<minedby>mining-drill</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>terrain-tool</id>
+	<name>Foundation</name>
+	<row>5</row>
+	<stack>1000</stack>
+</items>
+<items>
+	<category>resource</category>
+	<id>photon-capacitor-full</id>
+	<name>Critical photon</name>
+	<row>5</row>
+	<stack>100</stack>
+	<minedby>ray-receiver</minedby>
+</items>
+<items>
+	<category>components</category>
+	<id>partical-capacitor</id>
+	<name>Particle container</name>
+	<row>5</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>hyper-magnetism-ring</id>
+	<name>Super-magnetic ring</name>
+	<row>5</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>gravity-lens</id>
+	<name>Graviton lens</name>
+	<row>5</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>proliferator-3</id>
+	<name>Proliferator mk.III</name>
+	<row>5</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>space-warper</id>
+	<name>Space warper</name>
+	<row>5</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>plane-filter</id>
+	<name>Plane filter</name>
+	<row>5</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>quantum-processor</id>
+	<name>Quantum chip</name>
+	<row>5</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>logistic-vessel</id>
+	<name>Logistics vessel</name>
+	<row>5</row>
+	<stack>20</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>t-matrix</id>
+	<name>Electromagnetic matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>e-matrix</id>
+	<name>Energy matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>c-matrix</id>
+	<name>Structure matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>i-matrix</id>
+	<name>Information matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>g-matrix</id>
+	<name>Gravity matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>u-matrix</id>
+	<name>Universe matrix</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>solar-collector</id>
+	<name>Solar sail</name>
+	<row>6</row>
+	<stack>200</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>frame-material</id>
+	<name>Frame material</name>
+	<row>6</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>dyson-sphere-component</id>
+	<name>Dyson sphere component</name>
+	<row>6</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>components</category>
+	<id>rocket</id>
+	<name>Small carrier rocket</name>
+	<row>6</row>
+	<stack>10</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>tesla-coil</id>
+	<name>Tesla tower</name>
+	<row>0</row>
+	<stack>100</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>charging-pole</id>
+	<name>Wireless power tower</name>
+	<row>0</row>
+	<stack>50</stack>
+	<factory>
+		<type>electric</type>
+		<usage>4800</usage>
+		<drain>90</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>orbital-substation</id>
+	<name>Satellite substation</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<drain>360</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>wind-turbine</id>
+	<name>Wind turbine</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric-production</type>
+		<value>300</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>fuel-plant</id>
+	<name>Thermal power plant</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>burner</type>
+		<category>chemical</category>
+		<speed>1</speed>
+		<value>2160</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>solar-panel</id>
+	<name>Solar panel</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric-production</type>
+		<value>360</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>geothermal-power-station</id>
+	<name>Geothermal power station</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric-production</type>
+		<value>2400</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>fusion-power-station</id>
+	<name>Mini fusion power plant</name>
+	<row>0</row>
+	<stack>20</stack>
+	<factory>
+		<type>burner</type>
+		<category>nuclear</category>
+		<value>15000</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>energy-exchanger</id>
+	<name>Energy exchanger</name>
+	<row>0</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>45000</usage>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>ray-receiver</id>
+	<name>Ray receiver</name>
+	<row>0</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric-production</type>
+		<value>6000</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>fusion-reactor</id>
+	<name>Artificial star</name>
+	<row>0</row>
+	<stack>10</stack>
+	<factory>
+		<type>burner</type>
+		<category>antimatter</category>
+		<speed>1</speed>
+		<value>72000</value>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>belt-1</id>
+	<name>Conveyor belt mk.I</name>
+	<row>1</row>
+	<stack>200</stack>
+	<belt>
+		<speed>6</speed>
+	</belt>
+</items>
+<items>
+	<category>buildings</category>
+	<id>belt-2</id>
+	<name>Conveyor belt mk.II</name>
+	<row>1</row>
+	<stack>200</stack>
+	<belt>
+		<speed>12</speed>
+	</belt>
+</items>
+<items>
+	<category>buildings</category>
+	<id>belt-3</id>
+	<name>Conveyor belt mk.III</name>
+	<row>1</row>
+	<stack>200</stack>
+	<belt>
+		<speed>30</speed>
+	</belt>
+</items>
+<items>
+	<category>buildings</category>
+	<id>splitter-4dir</id>
+	<name>Splitter (4-direction)</name>
+	<row>1</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>automatic-piler</id>
+	<name>Automatic piler</name>
+	<row>1</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>144</usage>
+		<drain>9</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>traffic-monitor</id>
+	<name>Traffic monitor</name>
+	<row>1</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>storage-1</id>
+	<name>Storage mk.I</name>
+	<row>1</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>storage-2</id>
+	<name>Storage mk.II</name>
+	<row>1</row>
+	<stack>20</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>storage-tank</id>
+	<name>Storage tank</name>
+	<row>1</row>
+	<stack>50</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>logistic-station</id>
+	<name>Planetary logistics station</name>
+	<row>1</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>60000</usage>
+		<drain>60</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>interstellar-logistic-station</id>
+	<name>Interstellar logistics station</name>
+	<row>1</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>300000</usage>
+		<drain>60</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>orbital-collector</id>
+	<name>Orbital collector</name>
+	<row>1</row>
+	<stack>10</stack>
+	<mining>
+		<speed>8</speed>
+	</mining>
+</items>
+<items>
+	<category>buildings</category>
+	<id>inserter-1</id>
+	<name>Sorter mk.I</name>
+	<row>2</row>
+	<stack>100</stack>
+	<factory>
+		<type>electric</type>
+		<usage>18</usage>
+		<drain>9</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>inserter-2</id>
+	<name>Sorter mk.II</name>
+	<row>2</row>
+	<stack>100</stack>
+	<factory>
+		<type>electric</type>
+		<usage>36</usage>
+		<drain>9</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>inserter-3</id>
+	<name>Sorter mk.III</name>
+	<row>2</row>
+	<stack>100</stack>
+	<factory>
+		<type>electric</type>
+		<usage>72</usage>
+		<drain>9</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>mining-drill</id>
+	<name>Mining machine</name>
+	<row>2</row>
+	<stack>50</stack>
+	<factory>
+		<type>electric</type>
+		<usage>420</usage>
+		<drain>24</drain>
+	</factory>
+	<mining>
+		<speed>30</speed>
+	</mining>
+</items>
+<items>
+	<category>buildings</category>
+	<id>advanced-mining-drill</id>
+	<name>Advanced mining machine</name>
+	<row>2</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>2940</usage>
+		<drain>168</drain>
+	</factory>
+	<mining>
+		<speed>90</speed>
+	</mining>
+</items>
+<items>
+	<category>buildings</category>
+	<id>water-pump</id>
+	<name>Water pump</name>
+	<row>2</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>300</usage>
+		<drain>12</drain>
+	</factory>
+	<mining>
+		<speed>50</speed>
+	</mining>
+</items>
+<items>
+	<category>buildings</category>
+	<id>oil-extractor</id>
+	<name>Oil extractor</name>
+	<row>2</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>840</usage>
+		<drain>24</drain>
+	</factory>
+	<mining>
+		<speed>120</speed>
+	</mining>
+</items>
+<items>
+	<category>buildings</category>
+	<id>oil-refinery</id>
+	<name>Oil refinery</name>
+	<row>2</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>960</usage>
+		<drain>24</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>hadron-collider</id>
+	<name>Miniature particle collider</name>
+	<row>2</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>12000</usage>
+		<drain>120</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>em-rail-ejector</id>
+	<name>EM-Rail ejector</name>
+	<row>2</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>1800</usage>
+		<drain>60</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>vertical-launching-silo</id>
+	<name>Vertical launching silo</name>
+	<row>2</row>
+	<stack>10</stack>
+	<factory>
+		<type>electric</type>
+		<usage>18000</usage>
+		<drain>60</drain>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>assembler-1</id>
+	<name>Assembling machine mk.I</name>
+	<row>3</row>
+	<stack>50</stack>
+	<factory>
+		<speed>0.75</speed>
+		<type>electric</type>
+		<usage>270</usage>
+		<drain>12</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>smelter</id>
+	<name>Arc Smelter</name>
+	<row>3</row>
+	<stack>50</stack>
+	<factory>
+		<type>electric</type>
+		<usage>360</usage>
+		<drain>12</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>spray-coater</id>
+	<name>Spray coater</name>
+	<row>3</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>90</usage>
+		<drain>4.5</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>chemical-plant</id>
+	<name>Chemical plant</name>
+	<row>3</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>720</usage>
+		<drain>24</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>fractionator</id>
+	<name>Fractionator</name>
+	<row>3</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>720</usage>
+		<drain>18</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>lab</id>
+	<name>Matrix lab</name>
+	<row>3</row>
+	<stack>20</stack>
+	<factory>
+		<type>electric</type>
+		<usage>480</usage>
+		<drain>12</drain>
+		<modules>1</modules>
+	</factory>
+</items>
+<items>
+	<category>buildings</category>
+	<id>accumulator</id>
+	<name>Accumulator</name>
+	<row>3</row>
+	<stack>20</stack>
+</items>
+<items>
+	<category>buildings</category>
+	<id>accumulator-full</id>
+	<name>Accumulator (full)</name>
+	<row>3</row>
+	<stack>20</stack>
+</items>
+<recipes>
+	<id>iron-plate</id>
+	<name>Iron ingot</name>
+	<in>
+		<iron-ore>1</iron-ore>
+	</in>
+	<time>1</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>magnet</id>
+	<name>Magnet</name>
+	<in>
+		<iron-ore>1</iron-ore>
+	</in>
+	<time>1.5</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>copper-plate</id>
+	<name>Copper ingot</name>
+	<in>
+		<copper-ore>1</copper-ore>
+	</in>
+	<time>1</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>stone-brick</id>
+	<name>Stone brick</name>
+	<in>
+		<stone-ore>1</stone-ore>
+	</in>
+	<time>1</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>gear-wheel</id>
+	<name>Gear</name>
+	<in>
+		<iron-plate>1</iron-plate>
+	</in>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>magnetism-wire</id>
+	<name>Magnetic coil</name>
+	<in>
+		<magnet>2</magnet>
+		<copper-plate>1</copper-plate>
+	</in>
+	<out>
+		<magnetism-wire>2</magnetism-wire>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>wind-turbine</id>
+	<name>Wind turbine</name>
+	<in>
+		<iron-plate>6</iron-plate>
+		<gear-wheel>1</gear-wheel>
+		<magnetism-wire>3</magnetism-wire>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>tesla-coil</id>
+	<name>Tesla tower</name>
+	<in>
+		<iron-plate>2</iron-plate>
+		<magnetism-wire>1</magnetism-wire>
+	</in>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>t-matrix</id>
+	<name>Electromagnetic matrix</name>
+	<in>
+		<magnetism-wire>1</magnetism-wire>
+		<circuit-board>1</circuit-board>
+	</in>
+	<time>3</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>lab</id>
+	<name>Matrix lab</name>
+	<in>
+		<iron-plate>8</iron-plate>
+		<glass>4</glass>
+		<circuit-board>4</circuit-board>
+		<magnetism-wire>4</magnetism-wire>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>prism</id>
+	<name>Prism</name>
+	<in>
+		<glass>3</glass>
+	</in>
+	<out>
+		<prism>2</prism>
+	</out>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>plasma-generator</id>
+	<name>Plasma exciter</name>
+	<in>
+		<magnetism-wire>4</magnetism-wire>
+		<prism>2</prism>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>charging-pole</id>
+	<name>Wireless power tower</name>
+	<in>
+		<tesla-coil>1</tesla-coil>
+		<plasma-generator>3</plasma-generator>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>oil-extractor</id>
+	<name>Oil extractor</name>
+	<in>
+		<steel-plate>12</steel-plate>
+		<stone-brick>12</stone-brick>
+		<circuit-board>6</circuit-board>
+		<plasma-generator>4</plasma-generator>
+	</in>
+	<time>8</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>oil-refinery</id>
+	<name>Oil refinery</name>
+	<in>
+		<steel-plate>10</steel-plate>
+		<stone-brick>10</stone-brick>
+		<circuit-board>6</circuit-board>
+		<plasma-generator>6</plasma-generator>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>plasma-refining</id>
+	<name>Plasma refining</name>
+	<in>
+		<oil>2</oil>
+	</in>
+	<out>
+		<hydrogen>1</hydrogen>
+		<refined-oil>2</refined-oil>
+	</out>
+	<time>4</time>
+	<producers>oil-refinery</producers>
+</recipes>
+<recipes>
+	<id>graphite</id>
+	<name>Energetic graphite</name>
+	<in>
+		<coal-ore>2</coal-ore>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>e-matrix</id>
+	<name>Energy matrix</name>
+	<in>
+		<graphite>2</graphite>
+		<hydrogen>2</hydrogen>
+	</in>
+	<time>6</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>hydrogen-energy-fuel</id>
+	<name>Hydrogen fuel rod</name>
+	<in>
+		<titanium-plate>1</titanium-plate>
+		<hydrogen>10</hydrogen>
+	</in>
+	<out>
+		<hydrogen-energy-fuel>2</hydrogen-energy-fuel>
+	</out>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>fuel-thruster</id>
+	<name>Thruster</name>
+	<in>
+		<steel-plate>2</steel-plate>
+		<copper-plate>3</copper-plate>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>ion-thruster</id>
+	<name>Reinforced thruster</name>
+	<in>
+		<titanium-alloy>5</titanium-alloy>
+		<mag-turbine>5</mag-turbine>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>chemical-plant</id>
+	<name>Chemical plant</name>
+	<in>
+		<steel-plate>8</steel-plate>
+		<stone-brick>8</stone-brick>
+		<glass>8</glass>
+		<circuit-board>2</circuit-board>
+	</in>
+	<time>5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>plastic</id>
+	<name>Plastic</name>
+	<in>
+		<refined-oil>2</refined-oil>
+		<graphite>1</graphite>
+	</in>
+	<time>3</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>sulphuric-acid</id>
+	<name>Sulfuric acid</name>
+	<in>
+		<refined-oil>6</refined-oil>
+		<stone-ore>8</stone-ore>
+		<water>4</water>
+	</in>
+	<out>
+		<sulphuric-acid>4</sulphuric-acid>
+	</out>
+	<time>6</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>crystal-rubber</id>
+	<name>Organic crystal</name>
+	<in>
+		<plastic>2</plastic>
+		<refined-oil>1</refined-oil>
+		<water>1</water>
+	</in>
+	<time>6</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>titan-crystal</id>
+	<name>Titanium crystal</name>
+	<in>
+		<crystal-rubber>1</crystal-rubber>
+		<titanium-plate>3</titanium-plate>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>c-matrix</id>
+	<name>Structure matrix</name>
+	<in>
+		<diamond>1</diamond>
+		<titan-crystal>1</titan-crystal>
+	</in>
+	<time>8</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>casimir-crystal</id>
+	<name>Casimir crystal</name>
+	<in>
+		<titan-crystal>1</titan-crystal>
+		<graphene>2</graphene>
+		<hydrogen>12</hydrogen>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>casimir-crystal-lv2</id>
+	<name>Casimir crystal (advanced)</name>
+	<in>
+		<grating-ore>4</grating-ore>
+		<graphene>2</graphene>
+		<hydrogen>12</hydrogen>
+	</in>
+	<out>
+		<casimir-crystal>1</casimir-crystal>
+	</out>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>titan-glass</id>
+	<name>Titanium glass</name>
+	<in>
+		<glass>2</glass>
+		<titanium-plate>2</titanium-plate>
+		<water>2</water>
+	</in>
+	<out>
+		<titan-glass>2</titan-glass>
+	</out>
+	<time>5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>graphene</id>
+	<name>Graphene</name>
+	<in>
+		<graphite>3</graphite>
+		<sulphuric-acid>1</sulphuric-acid>
+	</in>
+	<out>
+		<graphene>2</graphene>
+	</out>
+	<time>3</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>graphene-lv2</id>
+	<name>Graphene (advanced)</name>
+	<in>
+		<gas-hydrate>2</gas-hydrate>
+	</in>
+	<out>
+		<graphene>2</graphene>
+		<hydrogen>1</hydrogen>
+	</out>
+	<time>2</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>nanotube</id>
+	<name>Carbon nanotube</name>
+	<in>
+		<graphene>3</graphene>
+		<titanium-plate>1</titanium-plate>
+	</in>
+	<out>
+		<nanotube>2</nanotube>
+	</out>
+	<time>4</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>silicium-ore</id>
+	<name>Silicon ore</name>
+	<in>
+		<stone-ore>10</stone-ore>
+	</in>
+	<out>
+		<silicium-ore>1</silicium-ore>
+	</out>
+	<time>10</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>nanotube-lv2</id>
+	<name>Carbon nanotube (advanced)</name>
+	<in>
+		<bamboo-crystal>2</bamboo-crystal>
+	</in>
+	<out>
+		<nanotube>2</nanotube>
+	</out>
+	<time>4</time>
+	<producers>chemical-plant</producers>
+</recipes>
+<recipes>
+	<id>particle-wide-band</id>
+	<name>Particle broadband</name>
+	<in>
+		<nanotube>2</nanotube>
+		<silicium-high-purity>2</silicium-high-purity>
+		<plastic>1</plastic>
+	</in>
+	<time>8</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>silicium-high-purity</id>
+	<name>Crystal silicon</name>
+	<in>
+		<silicium-single-crystal>1</silicium-single-crystal>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>plane-filter</id>
+	<name>Plane filter</name>
+	<in>
+		<casimir-crystal>1</casimir-crystal>
+		<titan-glass>2</titan-glass>
+	</in>
+	<time>12</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>hadron-collider</id>
+	<name>Miniature particle collider</name>
+	<in>
+		<titanium-alloy>20</titanium-alloy>
+		<frame-material>20</frame-material>
+		<hyper-magnetism-ring>50</hyper-magnetism-ring>
+		<graphene>10</graphene>
+		<processor>8</processor>
+	</in>
+	<time>15</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>deuterium</id>
+	<name>Deuterium</name>
+	<in>
+		<hydrogen>10</hydrogen>
+	</in>
+	<out>
+		<deuterium>5</deuterium>
+	</out>
+	<time>2.5</time>
+	<producers>hadron-collider</producers>
+</recipes>
+<recipes>
+	<id>deuterium-energy-fuel</id>
+	<name>Deuteron fuel rod</name>
+	<in>
+		<titanium-alloy>1</titanium-alloy>
+		<deuterium>20</deuterium>
+		<hyper-magnetism-ring>1</hyper-magnetism-ring>
+	</in>
+	<out>
+		<deuterium-energy-fuel>2</deuterium-energy-fuel>
+	</out>
+	<time>12</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>fusion-capacitor</id>
+	<name>Annihilation constraint sphere</name>
+	<in>
+		<partical-capacitor>1</partical-capacitor>
+		<processor>1</processor>
+	</in>
+	<time>20</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>fusion-reactor</id>
+	<name>Artificial star</name>
+	<in>
+		<titanium-alloy>20</titanium-alloy>
+		<frame-material>20</frame-material>
+		<fusion-capacitor>10</fusion-capacitor>
+		<quantum-processor>10</quantum-processor>
+	</in>
+	<time>30</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>antimatter-energy-fuel</id>
+	<name>Antimatter fuel rod</name>
+	<in>
+		<anti-matter>12</anti-matter>
+		<hydrogen>12</hydrogen>
+		<fusion-capacitor>1</fusion-capacitor>
+		<titanium-alloy>1</titanium-alloy>
+	</in>
+	<out>
+		<antimatter-energy-fuel>2</antimatter-energy-fuel>
+	</out>
+	<time>24</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>assembler-1</id>
+	<name>Assembling machine mk.I</name>
+	<in>
+		<iron-plate>4</iron-plate>
+		<gear-wheel>8</gear-wheel>
+		<circuit-board>4</circuit-board>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>mining-drill</id>
+	<name>Mining machine</name>
+	<in>
+		<iron-plate>4</iron-plate>
+		<circuit-board>2</circuit-board>
+		<magnetism-wire>2</magnetism-wire>
+		<gear-wheel>2</gear-wheel>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>water-pump</id>
+	<name>Water pump</name>
+	<in>
+		<iron-plate>8</iron-plate>
+		<stone-brick>4</stone-brick>
+		<electric-motor>4</electric-motor>
+		<circuit-board>2</circuit-board>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>circuit-board</id>
+	<name>Circuit board</name>
+	<in>
+		<iron-plate>2</iron-plate>
+		<copper-plate>1</copper-plate>
+	</in>
+	<out>
+		<circuit-board>2</circuit-board>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>processor</id>
+	<name>Processor</name>
+	<in>
+		<circuit-board>2</circuit-board>
+		<micro-component>2</micro-component>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>quantum-processor</id>
+	<name>Quantum chip</name>
+	<in>
+		<processor>2</processor>
+		<plane-filter>2</plane-filter>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>micro-component</id>
+	<name>Microcrystalline component</name>
+	<in>
+		<silicium-single-crystal>2</silicium-single-crystal>
+		<copper-plate>1</copper-plate>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>i-matrix</id>
+	<name>Information matrix</name>
+	<in>
+		<processor>2</processor>
+		<particle-wide-band>1</particle-wide-band>
+	</in>
+	<time>10</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>smelter</id>
+	<name>Arc Smelter</name>
+	<in>
+		<iron-plate>4</iron-plate>
+		<stone-brick>2</stone-brick>
+		<circuit-board>4</circuit-board>
+		<magnetism-wire>2</magnetism-wire>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>glass</id>
+	<name>Glass</name>
+	<in>
+		<stone-ore>2</stone-ore>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>x-ray</id>
+	<name>X-ray cracking</name>
+	<in>
+		<refined-oil>1</refined-oil>
+		<hydrogen>2</hydrogen>
+	</in>
+	<out>
+		<hydrogen>3</hydrogen>
+		<graphite>1</graphite>
+	</out>
+	<time>4</time>
+	<producers>oil-refinery</producers>
+</recipes>
+<recipes>
+	<id>silicium-single-crystal</id>
+	<name>High-purity silicon</name>
+	<in>
+		<silicium-ore>2</silicium-ore>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>diamond</id>
+	<name>Diamond</name>
+	<in>
+		<graphite>1</graphite>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>diamond-lv2</id>
+	<name>Diamond (advanced)</name>
+	<in>
+		<diamond-ore>1</diamond-ore>
+	</in>
+	<out>
+		<diamond>2</diamond>
+	</out>
+	<time>1.5</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>silicium-high-purity-lv2</id>
+	<name>Crystal silicon (advanced)</name>
+	<in>
+		<fractal-silica>1</fractal-silica>
+	</in>
+	<out>
+		<silicium-high-purity>2</silicium-high-purity>
+	</out>
+	<time>1.5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>steel-plate</id>
+	<name>Steel</name>
+	<in>
+		<iron-plate>3</iron-plate>
+	</in>
+	<time>3</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>fuel-plant</id>
+	<name>Thermal power plant</name>
+	<in>
+		<iron-plate>10</iron-plate>
+		<stone-brick>4</stone-brick>
+		<gear-wheel>4</gear-wheel>
+		<magnetism-wire>4</magnetism-wire>
+	</in>
+	<time>5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>titanium-plate</id>
+	<name>Titanium ingot</name>
+	<in>
+		<titanium-ore>2</titanium-ore>
+	</in>
+	<time>2</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>titanium-alloy</id>
+	<name>Titanium alloy</name>
+	<in>
+		<titanium-plate>4</titanium-plate>
+		<steel-plate>4</steel-plate>
+		<sulphuric-acid>8</sulphuric-acid>
+	</in>
+	<out>
+		<titanium-alloy>4</titanium-alloy>
+	</out>
+	<time>12</time>
+	<producers>smelter</producers>
+</recipes>
+<recipes>
+	<id>solar-panel</id>
+	<name>Solar panel</name>
+	<in>
+		<copper-plate>10</copper-plate>
+		<silicium-single-crystal>10</silicium-single-crystal>
+		<circuit-board>5</circuit-board>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>photo-shifter</id>
+	<name>Photon combiner</name>
+	<in>
+		<prism>2</prism>
+		<circuit-board>1</circuit-board>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>photo-shifter-lv2</id>
+	<name>Photon combiner (advanced)</name>
+	<in>
+		<grating-ore>1</grating-ore>
+		<circuit-board>1</circuit-board>
+	</in>
+	<out>
+		<photo-shifter>1</photo-shifter>
+	</out>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>solar-collector</id>
+	<name>Solar sail</name>
+	<in>
+		<graphene>1</graphene>
+		<photo-shifter>1</photo-shifter>
+	</in>
+	<out>
+		<solar-collector>2</solar-collector>
+	</out>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>em-rail-ejector</id>
+	<name>EM-Rail ejector</name>
+	<in>
+		<steel-plate>20</steel-plate>
+		<gear-wheel>20</gear-wheel>
+		<processor>5</processor>
+		<hyper-magnetism-ring>10</hyper-magnetism-ring>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>ray-receiver</id>
+	<name>Ray receiver</name>
+	<in>
+		<steel-plate>20</steel-plate>
+		<silicium-single-crystal>20</silicium-single-crystal>
+		<photo-shifter>10</photo-shifter>
+		<processor>5</processor>
+		<hyper-magnetism-ring>20</hyper-magnetism-ring>
+	</in>
+	<time>8</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>orbital-substation</id>
+	<name>Satellite substation</name>
+	<in>
+		<charging-pole>1</charging-pole>
+		<hyper-magnetism-ring>10</hyper-magnetism-ring>
+		<frame-material>2</frame-material>
+	</in>
+	<time>5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>photon-formula</id>
+	<name>Mass-energy storage</name>
+	<in>
+		<photon-capacitor-full>2</photon-capacitor-full>
+	</in>
+	<out>
+		<anti-matter>2</anti-matter>
+		<hydrogen>2</hydrogen>
+	</out>
+	<time>2</time>
+	<producers>hadron-collider</producers>
+</recipes>
+<recipes>
+	<id>u-matrix</id>
+	<name>Universe matrix</name>
+	<in>
+		<t-matrix>1</t-matrix>
+		<e-matrix>1</e-matrix>
+		<c-matrix>1</c-matrix>
+		<i-matrix>1</i-matrix>
+		<g-matrix>1</g-matrix>
+		<anti-matter>1</anti-matter>
+	</in>
+	<time>15</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>accumulator</id>
+	<name>Accumulator</name>
+	<in>
+		<iron-plate>6</iron-plate>
+		<hyper-magnetism-ring>1</hyper-magnetism-ring>
+		<silicium-high-purity>6</silicium-high-purity>
+	</in>
+	<time>5</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>energy-exchanger</id>
+	<name>Energy exchanger</name>
+	<in>
+		<titanium-alloy>40</titanium-alloy>
+		<steel-plate>40</steel-plate>
+		<processor>40</processor>
+		<partical-capacitor>8</partical-capacitor>
+	</in>
+	<time>15</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>space-warper</id>
+	<name>Space warper</name>
+	<in>
+		<gravity-lens>1</gravity-lens>
+	</in>
+	<time>10</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>space-warper-lv2</id>
+	<name>Space warper (advanced)</name>
+	<in>
+		<g-matrix>1</g-matrix>
+	</in>
+	<out>
+		<space-warper>8</space-warper>
+	</out>
+	<time>10</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>frame-material</id>
+	<name>Frame material</name>
+	<in>
+		<nanotube>4</nanotube>
+		<titanium-alloy>1</titanium-alloy>
+		<silicium-single-crystal>1</silicium-single-crystal>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>dyson-sphere-component</id>
+	<name>Dyson sphere component</name>
+	<in>
+		<frame-material>3</frame-material>
+		<solar-collector>3</solar-collector>
+		<processor>3</processor>
+	</in>
+	<time>8</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>vertical-launching-silo</id>
+	<name>Vertical launching silo</name>
+	<in>
+		<titanium-alloy>80</titanium-alloy>
+		<frame-material>30</frame-material>
+		<gravity-lens>20</gravity-lens>
+		<quantum-processor>10</quantum-processor>
+	</in>
+	<time>30</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>rocket</id>
+	<name>Small carrier rocket</name>
+	<in>
+		<dyson-sphere-component>2</dyson-sphere-component>
+		<deuterium-energy-fuel>4</deuterium-energy-fuel>
+		<quantum-processor>2</quantum-processor>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>belt-1</id>
+	<name>Conveyor belt mk.I</name>
+	<in>
+		<iron-plate>2</iron-plate>
+		<gear-wheel>1</gear-wheel>
+	</in>
+	<out>
+		<belt-1>3</belt-1>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>inserter-1</id>
+	<name>Sorter mk.I</name>
+	<in>
+		<iron-plate>1</iron-plate>
+		<circuit-board>1</circuit-board>
+	</in>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>storage-1</id>
+	<name>Storage mk.I</name>
+	<in>
+		<iron-plate>4</iron-plate>
+		<stone-brick>4</stone-brick>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>splitter-4dir</id>
+	<name>Splitter(4-direction)</name>
+	<in>
+		<iron-plate>3</iron-plate>
+		<gear-wheel>2</gear-wheel>
+		<circuit-board>1</circuit-board>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>inserter-2</id>
+	<name>Sorter mk.II</name>
+	<in>
+		<inserter-1>2</inserter-1>
+		<electric-motor>1</electric-motor>
+	</in>
+	<out>
+		<inserter-2>2</inserter-2>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>belt-2</id>
+	<name>Conveyor belt mk.II</name>
+	<in>
+		<belt-1>3</belt-1>
+		<mag-turbine>1</mag-turbine>
+	</in>
+	<out>
+		<belt-2>3</belt-2>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>inserter-3</id>
+	<name>Sorter mk.III</name>
+	<in>
+		<inserter-2>2</inserter-2>
+		<mag-turbine>1</mag-turbine>
+	</in>
+	<out>
+		<inserter-3>2</inserter-3>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>storage-2</id>
+	<name>Storage mk.II</name>
+	<in>
+		<steel-plate>8</steel-plate>
+		<stone-brick>8</stone-brick>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>belt-3</id>
+	<name>Conveyor belt mk.III</name>
+	<in>
+		<belt-2>3</belt-2>
+		<hyper-magnetism-ring>1</hyper-magnetism-ring>
+		<graphene>1</graphene>
+	</in>
+	<out>
+		<belt-3>3</belt-3>
+	</out>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>logistic-station</id>
+	<name>Planetary logistics station</name>
+	<in>
+		<steel-plate>40</steel-plate>
+		<titanium-plate>40</titanium-plate>
+		<processor>40</processor>
+		<partical-capacitor>20</partical-capacitor>
+	</in>
+	<time>20</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>logistic-drone</id>
+	<name>Logistics drone</name>
+	<in>
+		<iron-plate>5</iron-plate>
+		<processor>2</processor>
+		<fuel-thruster>2</fuel-thruster>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>interstellar-logistic-station</id>
+	<name>Interstellar logistics station</name>
+	<in>
+		<logistic-station>1</logistic-station>
+		<titanium-alloy>40</titanium-alloy>
+		<partical-capacitor>20</partical-capacitor>
+	</in>
+	<time>30</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>logistic-vessel</id>
+	<name>Logistics vessel</name>
+	<in>
+		<titanium-alloy>10</titanium-alloy>
+		<processor>10</processor>
+		<ion-thruster>2</ion-thruster>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>electric-motor</id>
+	<name>Electric motor</name>
+	<in>
+		<iron-plate>2</iron-plate>
+		<gear-wheel>1</gear-wheel>
+		<magnetism-wire>1</magnetism-wire>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>mag-turbine</id>
+	<name>Electromagnetic turbine</name>
+	<in>
+		<electric-motor>2</electric-motor>
+		<magnetism-wire>2</magnetism-wire>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>partical-capacitor</id>
+	<name>Particle container</name>
+	<in>
+		<mag-turbine>2</mag-turbine>
+		<copper-plate>2</copper-plate>
+		<graphene>2</graphene>
+	</in>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>partical-capacitor-lv2</id>
+	<name>Particle container (advanced)</name>
+	<in>
+		<mono-mag-ore>10</mono-mag-ore>
+		<copper-plate>2</copper-plate>
+	</in>
+	<out>
+		<partical-capacitor>1</partical-capacitor>
+	</out>
+	<time>4</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>gravity-lens</id>
+	<name>Graviton lens</name>
+	<in>
+		<diamond>4</diamond>
+		<strange-matter-generator>1</strange-matter-generator>
+	</in>
+	<time>6</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>g-matrix</id>
+	<name>Gravity matrix</name>
+	<in>
+		<gravity-lens>1</gravity-lens>
+		<quantum-processor>1</quantum-processor>
+	</in>
+	<out>
+		<g-matrix>2</g-matrix>
+	</out>
+	<time>24</time>
+	<producers>lab</producers>
+</recipes>
+<recipes>
+	<id>hyper-magnetism-ring</id>
+	<name>Super-magnetic ring</name>
+	<in>
+		<mag-turbine>2</mag-turbine>
+		<magnet>3</magnet>
+		<graphite>1</graphite>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>strange-matter-generator</id>
+	<name>Strange matter</name>
+	<in>
+		<partical-capacitor>2</partical-capacitor>
+		<iron-plate>2</iron-plate>
+		<deuterium>10</deuterium>
+	</in>
+	<time>8</time>
+	<producers>hadron-collider</producers>
+</recipes>
+<recipes>
+	<id>fractionator</id>
+	<name>Fractionator</name>
+	<in>
+		<steel-plate>8</steel-plate>
+		<stone-brick>4</stone-brick>
+		<glass>4</glass>
+		<processor>1</processor>
+	</in>
+	<time>3</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>orbital-collector</id>
+	<name>Orbital collector</name>
+	<in>
+		<interstellar-logistic-station>1</interstellar-logistic-station>
+		<hyper-magnetism-ring>50</hyper-magnetism-ring>
+		<ion-thruster>20</ion-thruster>
+		<accumulator-full>20</accumulator-full>
+	</in>
+	<time>30</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>terrain-tool</id>
+	<name>Foundation</name>
+	<in>
+		<stone-brick>3</stone-brick>
+		<steel-plate>1</steel-plate>
+	</in>
+	<time>1</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>fusion-power-station</id>
+	<name>Mini fusion power plant</name>
+	<in>
+		<titanium-alloy>12</titanium-alloy>
+		<hyper-magnetism-ring>10</hyper-magnetism-ring>
+		<nanotube>8</nanotube>
+		<processor>4</processor>
+	</in>
+	<time>10</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>storage-tank</id>
+	<name>Storage tank</name>
+	<in>
+		<iron-plate>8</iron-plate>
+		<stone-brick>4</stone-brick>
+		<glass>4</glass>
+	</in>
+	<time>2</time>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>deuterium-formula</id>
+	<name>Deuterium fractionation</name>
+	<in>
+		<hydrogen>0.01</hydrogen>
+	</in>
+	<out>
+		<deuterium>0.01</deuterium>
+	</out>
+	<time>1</time>
+	<producers>fractionator</producers>
+</recipes>
+<recipes>
+	<id>accumulator-full</id>
+	<name>Accumulator (full)</name>
+	<time>2</time>
+	<in>
+		<accumulator>1</accumulator>
+	</in>
+	<producers>energy-exchanger</producers>
+</recipes>
+<recipes>
+	<id>traffic-monitor</id>
+	<name>Traffic monitor</name>
+	<time>2</time>
+	<in>
+		<iron-plate>3</iron-plate>
+		<gear-wheel>2</gear-wheel>
+		<glass>1</glass>
+		<circuit-board>2</circuit-board>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>proliferator-1</id>
+	<name>Proliferator mk.I</name>
+	<time>0.5</time>
+	<in>
+		<coal-ore>1</coal-ore>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>proliferator-2</id>
+	<name>Proliferator mk.II</name>
+	<time>1</time>
+	<in>
+		<proliferator-1>2</proliferator-1>
+		<diamond>1</diamond>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>proliferator-3</id>
+	<name>Proliferator mk.III</name>
+	<time>2</time>
+	<in>
+		<proliferator-2>2</proliferator-2>
+		<nanotube>1</nanotube>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>spray-coater</id>
+	<name>Spray coater</name>
+	<time>3</time>
+	<in>
+		<steel-plate>4</steel-plate>
+		<plasma-generator>2</plasma-generator>
+		<circuit-board>2</circuit-board>
+		<micro-component>2</micro-component>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>advanced-mining-drill</id>
+	<name>Advanced mining machine</name>
+	<time>20</time>
+	<in>
+		<titanium-alloy>20</titanium-alloy>
+		<frame-material>10</frame-material>
+		<hyper-magnetism-ring>10</hyper-magnetism-ring>
+		<quantum-processor>4</quantum-processor>
+		<grating-ore>40</grating-ore>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>automatic-piler</id>
+	<name>Automatic piler</name>
+	<time>4</time>
+	<in>
+		<steel-plate>3</steel-plate>
+		<gear-wheel>4</gear-wheel>
+		<hyper-magnetism-ring>1</hyper-magnetism-ring>
+		<processor>1</processor>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+<recipes>
+	<id>geothermal-power-station</id>
+	<name>Geothermal power station</name>
+	<time>6</time>
+	<in>
+		<steel-plate>15</steel-plate>
+		<copper-plate>20</copper-plate>
+		<photo-shifter>4</photo-shifter>
+		<hyper-magnetism-ring>1</hyper-magnetism-ring>
+	</in>
+	<producers>assembler-1</producers>
+</recipes>
+</r>
