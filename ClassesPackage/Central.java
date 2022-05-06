@@ -15,8 +15,6 @@ public class Central extends Building
         return "ClassesPackage.Central{" +
                 "id=" + id +
                 ", name=" + name +
-//                ", building_products=" + building_products +
-//                ", building_resources=" + building_resources +
                 ", type='" + type + '\'' +
                 '}';
     }

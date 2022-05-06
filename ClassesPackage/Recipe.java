@@ -171,6 +171,7 @@ public class Recipe
                 }
                 else if (c instanceof Resource)
                 {
+                    // Check if the resource is already in the list
                     if (!tmpResources.contains(c))
                     {
                         tmpResources.add((Resource) c);
@@ -197,7 +198,9 @@ public class Recipe
             for (String s : r.getMinedby())
             {
                 if(Building.findBuilding(s) instanceof Factory)
+                {
                     total += ((Factory) Building.findBuilding(s)).usage;
+                }
             }
         }
 

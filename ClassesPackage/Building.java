@@ -33,18 +33,7 @@ public class Building extends Component
 
     public LinkedList<Recipe> getAssociatedRecipes()
     {
-        /*if (associatedRecipies.size() > 0)
-        {
-            for (ClassesPackage.Recipe r : associatedRecipies)
-            {
-                System.out.println(r);
-            }
-        }
-        else
-        {
-            System.out.println("No recipies associated");
-        }*/
-        return this.associatedRecipies;
+        return (LinkedList<Recipe>)associatedRecipies.clone();
     }
 
 
@@ -68,10 +57,6 @@ public class Building extends Component
     {
         Collections.sort(allBuildings, new Component.ComponentComparator());
         return allBuildings;
-        /*for (ClassesPackage.Component b : allBuildings)
-        {
-            System.out.println(b.getName());
-        }*/
     }
 
 

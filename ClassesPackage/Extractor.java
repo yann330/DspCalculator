@@ -6,7 +6,6 @@ public class Extractor extends Factory implements Extracts
 {
     private double mining_speed;
     private LinkedList<Resource> extractedResources;
-    //private ClassesPackage.Resource extracted_resource;
 
     public Extractor(String id, String name, Integer usage, double drain, Double mining_speed)
     {
@@ -21,14 +20,11 @@ public class Extractor extends Factory implements Extracts
         return "ClassesPackage.Extractor{" +
                 "id=" + id +
                 ", name=" + name +
-//                ", building_products=" + building_products +
-//                ", building_resources=" + building_resources +
                 ", type='" + type + '\'' +
                 ", speed=" + speed +
                 ", usage=" + usage +
                 ", drain=" + drain +
                 ", mining_speed=" + mining_speed +
-                //", extracted_resource=" + extracted_resource +
                 '}';
     }
 
@@ -42,15 +38,6 @@ public class Extractor extends Factory implements Extracts
     {
         extractedResources.add(resource);
     }
-
-//    @Override
-//    public void getResources()
-//    {
-//        for (ClassesPackage.Resource r : extractedResources)
-//        {
-//            System.out.println(r);
-//        }
-//    }
 
     @Override
     public LinkedList<Resource> getExtractedResources()

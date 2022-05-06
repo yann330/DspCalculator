@@ -66,20 +66,4 @@ public class BurnerCentral extends Central implements CategoryExceptionInterface
         }
     }
 
-    //Afficher, pour une centrale à carburant donnée, tous les carburants qu’elle peut prendre en entrée
-    //(vous devez afficher les informations complètes de chaque carburant).
-
-//    public static void getAllCarburants(String id)
-//    {
-//        try
-//        {
-//            ClassesPackage.BurnerCentral b = (ClassesPackage.BurnerCentral) ClassesPackage.Building.findBuilding(id);
-//            b.getCarburants();
-//        }
-//        catch (Exception ex)
-//        {
-//            System.out.println("The building is not found");
-//        }
-//    }
-
 }

@@ -20,8 +20,6 @@ public class ExtractorNonElectric extends Building implements Extracts
         return "ClassesPackage.ExtractorNonElectric{" +
                 "id=" + id +
                 ", name=" + name +
-//                ", building_products=" + building_products +
-//                ", building_resources=" + building_resources +
                 ", mining_speed=" + mining_speed +
                 '}';
     }
@@ -42,12 +40,4 @@ public class ExtractorNonElectric extends Building implements Extracts
         return (LinkedList<Resource>) extractedResources.clone();
     }
 
-//    @Override
-//    public void getResources()
-//    {
-//        for (ClassesPackage.Resource r : extractedResources)
-//        {
-//            System.out.println(r);
-//        }
-//    }
 }
