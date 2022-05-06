@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91847e6-242f-46e5-ae83-0b5620bbc7e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DspCalculator_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPackage/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Extractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPackage/Extracts.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Extracts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassesPackage/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DspCalculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/AlphabeticBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/AlphabeticBuildings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/AlphabeticRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/AlphabeticRecipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/BurnerCentralDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/BurnerCentralDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/ChoixFiltrageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/ChoixFiltrageMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/ExtractorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/ExtractorDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/FactoryDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/FactoryDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/NotBuildingDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/NotBuildingDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintBuildingDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintBuildingDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Central.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Central.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/EnergyProductionCentral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Extractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Extractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/ExtractorNonElectric.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/ExtractorNonElectric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassesPackage/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPackage/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintBurnerCentralDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintExtractorDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintFactoryDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintRecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintRecipeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/PrintResourceDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/PrintResourceDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterfacePackage/RecipeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterfacePackage/RecipeResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651771740042</updated>
-      <workItem from="1651771745611" duration="11059000" />
+      <workItem from="1651771745611" duration="11818000" />
+      <workItem from="1651865796372" duration="1067000" />
     </task>
     <servers />
   </component>

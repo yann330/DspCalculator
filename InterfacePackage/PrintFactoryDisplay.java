@@ -68,7 +68,7 @@ public class PrintFactoryDisplay extends JFrame implements ActionListener {
         if(res.size()==0){
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No recipe found.");
-            no_recipe_found.setBounds(0, y = 50, 400, 10);
+            no_recipe_found.setBounds(0, y = 140, 400, 10);
             contentPane.add(no_recipe_found);
             contentPane.add(new Label(""));
         }

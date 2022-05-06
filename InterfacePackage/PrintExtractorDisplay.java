@@ -136,20 +136,19 @@ public class PrintExtractorDisplay extends JFrame implements ActionListener {
         // Associated Recipes
         JLabel recipes_title = new JLabel();
         recipes_title.setText("<html><h2><em>Associated resources:</em></h2><html>");
-        recipes_title.setBounds(0, y =140, 400, 10);
+        recipes_title.setBounds(0, y =60, 400, 10);
         contentPane.add(recipes_title);
 
         JLabel[] recipes = new JLabel[res.size()];
-        contentPane.setLayout(new GridLayout(res.size()+3,1));
         if(res.size()==0){
-            contentPane.setLayout(new GridLayout(res.size()+5,1));
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No resource found.");
-            no_recipe_found.setBounds(0, y = 160, 400, 10);
+            no_recipe_found.setBounds(0, y = 80, 400, 10);
             contentPane.add(no_recipe_found);
             contentPane.add(new Label(""));
         }
         else {
+            contentPane.setLayout(new GridLayout(res.size()+4,1));
             for (int i = 0; i < res.size(); i++) {
                 btt.add(new JButton(res.get(i).getName()));
                 contentPane.add(btt.get(i));
@@ -179,17 +178,17 @@ public class PrintExtractorDisplay extends JFrame implements ActionListener {
         // Name
         JLabel title = new JLabel();
         title.setText("<html><h1>" + e.getName() + "</h1><html>");
-        title.setBounds(0, y, 400, 10);
+        title.setBounds(0, y, 400, 30);
         title.setHorizontalAlignment(SwingConstants.CENTER);
 
         // ID
         JLabel id = new JLabel();
         id.setText("<html><h2><em>ID: </em>" + e.getId() + "</h2><html>");
-        id.setBounds(0, y = 20, 400, 10);
+        id.setBounds(0, y = 20, 400, 30);
         // Type
         JLabel type = new JLabel();
         type.setText("<html><h2><em>Type: </em>"+ e.getType()+"</h2><html>");
-        type.setBounds(0, y=40, 400, 10);
+        type.setBounds(0, y=40, 400, 30);
         // Adding the labels
         contentPane.add(title);
         contentPane.add(id);
@@ -197,19 +196,19 @@ public class PrintExtractorDisplay extends JFrame implements ActionListener {
         // Associated Recipes
         JLabel recipes_title = new JLabel();
         recipes_title.setText("<html><h2><em>Associated resources:</em></h2><html>");
-        recipes_title.setBounds(0, y =60, 400, 10);
+        recipes_title.setBounds(0, y =60, 400, 30);
         contentPane.add(recipes_title);
 
         JLabel[] recipes = new JLabel[res.size()];
         if(res.size()==0){
             JLabel no_recipe_found = new JLabel();
             no_recipe_found.setText("No resource found.");
-            no_recipe_found.setBounds(0, y = 80, 400, 10);
+            no_recipe_found.setBounds(0, y = 80, 400, 30);
             contentPane.add(no_recipe_found);
             contentPane.add(new Label(""));
         }
         else {
-            contentPane.setLayout(new GridLayout(res.size()+3,1));
+            contentPane.setLayout(new GridLayout(res.size()+4,1));
             for (int i = 0; i < res.size(); i++) {
                 btt.add(new JButton(res.get(i).getName()));
                 contentPane.add(btt.get(i));
